@@ -1,14 +1,18 @@
-$(function(){
-    var $width = $('#width');
-    var $height = $('#height');
-    var $calcul = $('#calcul');
-    var $perimeter = $('#perimeter');
-    var $area = $('#area');
-    $calcul.click(function(){
-        const w = $width.val(),
-            h = $height.val();
-
-        $perimeter.val(w*2+h*2);
-        $area.val(w*h)
-    })
-})
+$(function() {
+    var $width = $('#width'),
+        $height = $('#height'),
+        $btnCal = $('#calculate'),
+        $perimeter = $('#perimeter'),
+        $area = $('#area');
+  
+    $btnCal.click(function(){
+      var w = Number($width.val()),
+          h = Number($height.val());
+  
+      var p = 2 * (w + h),
+          a = w * h;
+  
+      $perimeter.val(p);
+      $area.val(a);
+    });
+});

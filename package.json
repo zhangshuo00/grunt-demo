@@ -8,7 +8,7 @@
     "grunt": "^1.0.4"
   },
   "devDependencies": {
-    "grunt-contrib-csslint": "^2.0.0"
+    "grunt-eslint": "^22.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
