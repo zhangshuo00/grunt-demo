@@ -4,6 +4,7 @@
   "description": "",
   "main": "Gruntfile.js",
   "dependencies": {
+    "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-imagemin": "^3.1.0",
     "grunt-contrib-less": "^2.0.0",
     "grunt-contrib-uglify": "^4.0.1"
